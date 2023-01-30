@@ -11,7 +11,7 @@
 + **Final command**: `$pr -mt -w 100 text1 text2`
 
 + **Outcome**:
-    ![Outcome](https://drive.google.com/file/d/1OZcIhhvxas8yeupfqxrXhXUcdIRR7WT4/view?usp=share_link "Task1")
+    ![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task1.png?raw=true "Task1")
 
 ## Task 2: How many characters does etc/passwd have? (with `od` command)
     
@@ -25,8 +25,8 @@
 + **Final command**: `$od -c -w1 -v -Ad /etc/passwd`
 
 + **Outcome**:
-    ![Outcome](https://drive.google.com/file/d/1FEd8r6SOEMhFd1S_xDYe1vji6YwX39bh/view?usp=share_link "Task2-1")
-    ![Outcome](https://drive.google.com/file/d/1g3U4gOnz3xIOWt8CBvYsniw_ExBuJVcD/view?usp=share_link "Task2-2")
+    ![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task2-1.png?raw=true "Task2-1")
+    ![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task2-2.png?raw=true "Task2-2")
       
 ## Task 3: Numbers between 14 and 567 with regex (without displaying 14557)
 
@@ -45,8 +45,8 @@ We use \b before and after all of them to prevent finding any combination of the
 
 + **Outcome**:
 
-![Outcome](https://drive.google.com/file/d/1Foe2GUHHSt-4q1bhMJG3pt9x8a9DPBpW/view?usp=share_link "Task3-1")
-    ![Outcome](https://drive.google.com/file/d/1O5_wSp-TIl9SgNrj12Ld6GD-GFqkSBTv/view?usp=share_link "Task3-2")
+![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task3-1.png?raw=true "Task3-1")
+    ![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task3-2.png?raw=true "Task3-2")
 
 ## Task 4: Number of matches by grep
 
@@ -56,7 +56,7 @@ Best way to achieve the number of matches using grep is to use `-o` option to hi
 
 + **Outcome**:
 
-![Outcome](https://drive.google.com/file/d/1EuhCVRz0KBWWdc2LFqcyxhCXKnD4JlNz/view?usp=share_link "Task4")
+![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task4.png?raw=true "Task4")
 
   ## Task 5: First and last letter of exactly one word
 
@@ -66,7 +66,7 @@ by changing a bit of `grep “\bs.*n\b” /etc/passwd` we can specify only words
 
 + **Outcome**:
 
-![Outcome](https://drive.google.com/file/d/1OC1GEglp73f6aF2BTY8r4JgBK7X-uM_B/view?usp=share_link "Task5")
+![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task5.png?raw=true "Task5")
 
 ## Task 6: Why can't we use same file as STDIN and STDOUT at the same time and how can we fix that
    
@@ -78,7 +78,7 @@ The solution I found to solve this problem and use a file as STDIN and overwrite
 
 + **Outcome**:
 
-![Outcome](https://drive.google.com/file/d/1H-FFUVeCQJe4d8cMIU6nwDhC3U4GVuwj/view?usp=share_link "Task6")
+![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task6.png?raw=true "Task6")
 
 ## Task 7: Displaying the first 7 lines of last 15 lines of /etc/passwd file
   
@@ -88,7 +88,7 @@ To accomplish this task first we need to filter out the last 15 lines of /etc/pa
 
 + **Outcome**:
 
-![Outcome](https://drive.google.com/file/d/187Jf7CjdeReGPnZzHSQqNlp_WrO3I9AE/view?usp=share_link "Task7")
+![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task7.png?raw=true "Task7")
 
 
 ## Task 8: Displaying lines between 5 and 20 in /etc/passwd file (Independent to how many line it has)
@@ -98,4 +98,4 @@ To accomplish this task first we need to filter out the last 15 lines of /etc/pa
 
 + **Outcome**:
 
-![Outcome](https://drive.google.com/file/d/1RatU0SH1jw4bc0ZXt9strDtjvMGUR3lM/view?usp=share_link "Task8")
+![Outcome](https://github.com/mdhb9717/Anisa-LPIC-1-Jan-2023-Fridays-HW3/blob/main/Task8.png?raw=true "Task8")
